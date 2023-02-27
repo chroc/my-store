@@ -36,6 +36,11 @@ class ProductsService {
     //     return newProduct;
     // }
 
+    async create(data) {
+        const newProduct = models.Product.create(data);
+        return newProduct;
+      }
+
     async find() {
         // const query = 'SELECT * from tasks';
         // const rta = await this.pool.query(query);

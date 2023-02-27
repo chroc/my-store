@@ -23,6 +23,7 @@
 .LSOverride
 
 postgres_data
+mysql_data
 
 # Icon must end with two \r
 Icon
